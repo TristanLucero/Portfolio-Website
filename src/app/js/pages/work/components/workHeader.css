@@ -1,0 +1,24 @@
+* {
+  font-family: "Roboto";
+}
+
+.workHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.workHeaderImg {
+  aspect-ratio: 1000 / 667;
+  max-width: 100vh;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+}
+
+.workHeaderText {
+  --align: left;
+  font-size: 5vh !important;
+  padding-top: 5vh;
+}
