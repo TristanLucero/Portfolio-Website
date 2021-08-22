@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tristanlucero.github.io/Portfolio-Website/",
+  "homepage": "https://TristanLucero.github.io/Portfolio-Website/",
   "name": "tristan_lucero_portfolio_08_2021",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.2",
