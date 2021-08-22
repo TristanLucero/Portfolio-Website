@@ -1,0 +1,10 @@
+.projectsWrapper {
+  padding: 4vw 8vw 0vw 8vw;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5vw;
+  height: 30vw;
+}

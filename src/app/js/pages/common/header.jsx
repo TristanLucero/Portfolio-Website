@@ -15,24 +15,24 @@ function Header() {
           style={{ color: "black" }}
         >
           <Link href="/" onClick={() => {}} color="inherit">
-            Work
+            work
           </Link>
           <Link target="_blank" href="https://docs.google.com/" color="inherit">
-            Resume
+            resume
           </Link>
           <Link
             target="_blank"
             href="https://github.com/tristanlucero"
             color="inherit"
           >
-            Github
+            github
           </Link>
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/tristanlucero/"
             color="inherit"
           >
-            LinkedIn
+            linkedin
           </Link>
         </Breadcrumbs>
       </div>
