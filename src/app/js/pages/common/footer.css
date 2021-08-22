@@ -2,15 +2,15 @@
   font-family: "Roboto";
 }
 
-.headerWrapper {
+.footerWrapper {
   display: flex;
   flex-direction: row;
-  padding: 2vw 5vw 2vw 5vw;
+  padding: 2vw 2vw 1vw 2vw;
 }
 
 .breadcrumbsWrapper {
   margin-left: auto;
-  padding-left: 5vw;
+  padding-left: 7vw;
 }
 
 .initials {

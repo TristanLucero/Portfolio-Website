@@ -1,0 +1,8 @@
+.aboutWrapper {
+  padding: 4vw 8vw 0vw 8vw;
+}
+
+.aboutParagraphWrapper {
+  display: flex;
+  flex-direction: row;
+}

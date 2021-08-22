@@ -5,7 +5,6 @@ import {
   Card,
   CardMedia,
   CardContent,
-  CardActions,
 } from "@material-ui/core";
 import "./workProjects.css";
 import blackImage from "../../common/images/black-image.jpg";
@@ -19,8 +18,15 @@ const useStyles = makeStyles({
     "background-color": "black",
   },
   card: {
-    "margin-left": "1vw",
-    "margin-right": "1vw",
+    "margin-left": "2vw",
+    "margin-right": "2vw",
+    maxWidth: 400,
+    maxHeight: "25vw",
+  },
+  cardText: {
+    fontSize: "1vw",
+    variant: "body2",
+    color: "textSecondary",
   },
 });
 
@@ -33,35 +39,29 @@ export default function workProjects() {
       <Divider className={classes.divider} />
       <div className="cardsWrapper">
         <Card className={classes.card}>
-          <CardMedia
-            style={{ height: 200, paddingTop: "56.25%" }}
-            image={blackImage}
-          />
+          <CardMedia style={{ height: "15vw" }} image={blackImage} />
           <CardContent>
-            <Typography variant="body2" color="textSecondary">
-              Project 1
+            <Typography className={classes.cardText}>
+              Project 1 - this project is a simple project for a portfolio
+              website. This was made with React using Javascript, HTML, and CSS.
             </Typography>
           </CardContent>
         </Card>
         <Card className={classes.card}>
-          <CardMedia
-            style={{ height: 200, paddingTop: "56.25%" }}
-            image={blackImage}
-          />
+          <CardMedia style={{ height: "15vw" }} image={blackImage} />
           <CardContent>
-            <Typography variant="body2" color="textSecondary">
-              Project 2
+            <Typography className={classes.cardText}>
+              Project 2 - this project is a simple project for a portfolio
+              website. This was made with React using Javascript, HTML, and CSS.
             </Typography>
           </CardContent>
         </Card>
         <Card className={classes.card}>
-          <CardMedia
-            style={{ height: 200, paddingTop: "56.25%" }}
-            image={blackImage}
-          />
+          <CardMedia style={{ height: "15vw" }} image={blackImage} />
           <CardContent>
-            <Typography variant="body2" color="textSecondary">
-              Project 3
+            <Typography className={classes.cardText}>
+              Project 3 - this project is a simple project for a portfolio
+              website. This was made with React using Javascript, HTML, and CSS.
             </Typography>
           </CardContent>
         </Card>
