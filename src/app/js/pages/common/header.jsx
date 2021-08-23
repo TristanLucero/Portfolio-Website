@@ -3,8 +3,17 @@ import "./header.css";
 import "@fontsource/roboto";
 import { Breadcrumbs, Link } from "@material-ui/core";
 import { ReactComponent as Initials } from "./svg/initials.svg";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  linkText: {
+    fontSize: "1.5vw",
+  },
+});
 
 function Header() {
+  const classes = useStyles();
+
   return (
     <div className="headerWrapper">
       <Initials className="initials" />
@@ -14,20 +23,20 @@ function Header() {
           separator=""
           style={{ color: "black" }}
         >
-          <Link target="_blank" href="https://docs.google.com/" color="inherit">
+          <Link href="https://docs.google.com/" color="inherit" className={classes.linkText}>
             resume
           </Link>
           <Link
-            target="_blank"
             href="https://github.com/tristanlucero"
             color="inherit"
+            className={classes.linkText}
           >
             github
           </Link>
           <Link
-            target="_blank"
             href="https://www.linkedin.com/in/tristanlucero/"
             color="inherit"
+            className={classes.linkText}
           >
             linkedin
           </Link>

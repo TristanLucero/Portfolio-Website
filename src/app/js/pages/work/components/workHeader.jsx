@@ -12,10 +12,10 @@ export default function workHeader() {
   return (
     <div className="workHeaderWrapper">
       <div className="textAndImgWrapper">
-        <Typography style={{ fontSize: "2.5vw" }}>{workHeaderText}</Typography>
+        <Typography style={{ fontSize: "2.5vw", 'padding-top': '2.5vw' }}>{workHeaderText}</Typography>
         <img src={penguins} alt="Logo" className="workHeaderImg" />
       </div>
-      <Typography style={{ fontSize: "1.5vw" }}>{phoneText}</Typography>
+      <Typography style={{ fontSize: "1.25vw" }}>{phoneText}</Typography>
     </div>
   );
 }
