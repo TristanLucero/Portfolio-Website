@@ -33,15 +33,21 @@ function Footer() {
               target="_blank"
               href="https://docs.google.com/"
               color="inherit"
+              target="_blank"
             >
               <Description className={classes.icons} />
             </Link>
-            <Link href="https://github.com/tristanlucero" color="inherit">
+            <Link
+              href="https://github.com/tristanlucero"
+              color="inherit"
+              target="_blank"
+            >
               <GitHub className={classes.icons} />
             </Link>
             <Link
               href="https://www.linkedin.com/in/tristanlucero/"
               color="inherit"
+              target="_blank"
             >
               <LinkedIn className={classes.icons} />
             </Link>

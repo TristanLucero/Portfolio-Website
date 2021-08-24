@@ -23,13 +23,19 @@ function Header() {
           separator=""
           style={{ color: "black" }}
         >
-          <Link href="https://docs.google.com/" color="inherit" className={classes.linkText}>
+          <Link
+            href="https://docs.google.com/"
+            color="inherit"
+            className={classes.linkText}
+            target="_blank"
+          >
             resume
           </Link>
           <Link
             href="https://github.com/tristanlucero"
             color="inherit"
             className={classes.linkText}
+            target="_blank"
           >
             github
           </Link>
@@ -37,6 +43,7 @@ function Header() {
             href="https://www.linkedin.com/in/tristanlucero/"
             color="inherit"
             className={classes.linkText}
+            target="_blank"
           >
             linkedin
           </Link>
