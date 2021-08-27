@@ -10,7 +10,9 @@ import {
   Link,
 } from "@material-ui/core";
 import "./workProjects.css";
-import blackImage from "../../common/images/black-image.jpg";
+import portfolioImg from '../../common/images/portfolio.png';
+import sortingImg from '../../common/images/sorting.jpg';
+import bangImg from '../../common/images/bang.jpg';
 import { makeStyles } from "@material-ui/core/styles";
 import { GitHub } from "@material-ui/icons";
 
@@ -30,7 +32,7 @@ const useStyles = makeStyles({
     color: "textSecondary",
   },
   cardMedia: {
-    height: "15vw",
+    height: "10vw",
   },
   cardHeaderText: {
     fontSize: "2vw",
@@ -54,7 +56,7 @@ export default function workProjects() {
             action={
               <IconButton aria-label="settings">
                 <Link
-                  href="https://github.com/tristanlucero"
+                  href="https://github.com/TristanLucero/Portfolio-Website"
                   color="inherit"
                   target="_blank"
                 >
@@ -64,7 +66,7 @@ export default function workProjects() {
             }
             title="Project 1"
           />
-          <CardMedia className={classes.cardMedia} image={blackImage} />
+          <CardMedia className={classes.cardMedia} image={portfolioImg} />
           <CardContent>
             <Typography className={classes.cardText}>
               This project is a simple project for a portfolio website. This was
@@ -78,7 +80,7 @@ export default function workProjects() {
             action={
               <IconButton aria-label="settings">
                 <Link
-                  href="https://github.com/tristanlucero"
+                  href="https://github.com/TristanLucero/sorting-algorithm-visualizer"
                   color="inherit"
                   target="_blank"
                 >
@@ -88,7 +90,7 @@ export default function workProjects() {
             }
             title="Project 2"
           />
-          <CardMedia className={classes.cardMedia} image={blackImage} />
+          <CardMedia className={classes.cardMedia} image={sortingImg} />
           <CardContent>
             <Typography className={classes.cardText}>
               This project is a simple project for a portfolio website. This was
@@ -102,7 +104,7 @@ export default function workProjects() {
             action={
               <IconButton aria-label="settings">
                 <Link
-                  href="https://github.com/tristanlucero"
+                  href="https://github.com/TristanLucero/BANG-Card-Game-Clone"
                   color="inherit"
                   target="_blank"
                 >
@@ -112,7 +114,7 @@ export default function workProjects() {
             }
             title="Project 3"
           />
-          <CardMedia className={classes.cardMedia} image={blackImage} />
+          <CardMedia className={classes.cardMedia} image={bangImg} />
           <CardContent>
             <Typography className={classes.cardText}>
               This project is a simple project for a portfolio website. This was
