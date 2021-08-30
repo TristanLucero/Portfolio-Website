@@ -28,7 +28,7 @@ export default function workAbout() {
   const bioText =
     "I am a full stack software engineer currently studying Computer Science at Texas Tech University. I have previously worked at Intuit as a full-stack software engineer intern, where I used React, Javascript, HTML, CSS, and Java to build out our full-stack applications.";
   const skillsText =
-    "React\t•\tVue\t•\tJavascript\t•\tHTML\t•\tCSS\t•\tJava\t•\tPython\t•\tC\t•\tJest\t•\tRedux";
+    "React \t • \t Vue \t • \t Javascript \t • \t HTML \t • \t CSS \t • \t Java \t • \t Python \t • \t C \t • \t Jest \t • \t Redux";
 
   return (
     <div className="aboutWrapper">
