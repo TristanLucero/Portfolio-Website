@@ -10,9 +10,9 @@ import {
   Link,
 } from "@material-ui/core";
 import "./workProjects.css";
-import portfolioImg from '../../common/images/portfolio.png';
-import sortingImg from '../../common/images/sorting.jpg';
-import bangImg from '../../common/images/bang.jpg';
+import portfolioImg from "../../common/images/portfolio.png";
+import sortingImg from "../../common/images/sorting.jpg";
+import bangImg from "../../common/images/bang.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import { GitHub } from "@material-ui/icons";
 
@@ -25,6 +25,7 @@ const useStyles = makeStyles({
   },
   card: {
     margin: "2vw",
+    width: "500px",
   },
   cardText: {
     fontSize: "1.2vw",
@@ -47,7 +48,7 @@ export default function workProjects() {
 
   return (
     <div className="projectsWrapper">
-      <Typography className={classes.projectsText}>projects</Typography>
+      <Typography className={classes.projectsText}>Projects</Typography>
       <Divider className={classes.divider} />
       <div className="cardsWrapper">
         <Card className={classes.card} raised>
@@ -69,8 +70,8 @@ export default function workProjects() {
           <CardMedia className={classes.cardMedia} image={portfolioImg} />
           <CardContent>
             <Typography className={classes.cardText}>
-              This project is a simple project for a portfolio website. This was
-              made with React using Javascript, HTML, and CSS.
+              This is my portfolio website (the one you are currently on) -
+              Built using React, Javascript, HTML, and CSS.
             </Typography>
           </CardContent>
         </Card>
@@ -93,8 +94,9 @@ export default function workProjects() {
           <CardMedia className={classes.cardMedia} image={sortingImg} />
           <CardContent>
             <Typography className={classes.cardText}>
-              This project is a simple project for a portfolio website. This was
-              made with React using Javascript, HTML, and CSS.
+              This is a sorting algorithm visualizer. You can create a custom
+              list and sort it using Bubble Sort, Selection Sort, and Insertion
+              Sort - Built using Python with Pygame.
             </Typography>
           </CardContent>
         </Card>
@@ -117,8 +119,8 @@ export default function workProjects() {
           <CardMedia className={classes.cardMedia} image={bangImg} />
           <CardContent>
             <Typography className={classes.cardText}>
-              This project is a simple project for a portfolio website. This was
-              made with React using Javascript, HTML, and CSS.
+              This was a group project to build a GUI for a clone of the card
+              game BANG! - Build using Java and JavaFX.
             </Typography>
           </CardContent>
         </Card>

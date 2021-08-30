@@ -5,9 +5,9 @@ import "./workHeader.css";
 
 export default function workHeader() {
   const workHeaderText =
-    "hello! ツ i'm tristan lucero - a full stack software engineer currently pursuing a bachelors degree in computer science";
+    "Hello! ツ I'm Tristan Lucero - a full stack software engineer currently pursuing a bachelors degree in computer science";
   const phoneText =
-    "contact info: 979-250-2645 | tristanandrewlucero@gmail.com";
+    "Contact info: 979-250-2645 | tristanandrewlucero@gmail.com";
 
   return (
     <div className="workHeaderWrapper">

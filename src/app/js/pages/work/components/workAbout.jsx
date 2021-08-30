@@ -28,11 +28,11 @@ export default function workAbout() {
   const bioText =
     "I am a full stack software engineer currently studying Computer Science at Texas Tech University. I have previously worked at Intuit as a full-stack software engineer intern, where I used React, Javascript, HTML, CSS, and Java to build out our full-stack applications.";
   const skillsText =
-    "React\t•\tJavascript\t•\tHTML\t•\tCSS\t•\tJava\t•\tPython\t•\tC\t•\tJest\t•\tRedux";
+    "React\t•\tVue\t•\tJavascript\t•\tHTML\t•\tCSS\t•\tJava\t•\tPython\t•\tC\t•\tJest\t•\tRedux";
 
   return (
     <div className="aboutWrapper">
-      <Typography className={classes.aboutText}>about</Typography>
+      <Typography className={classes.aboutText}>About</Typography>
       <Divider className={classes.divider} />
       <div className="aboutParagraphWrapper">
         <Typography className={classes.bioText}>{bioText}</Typography>

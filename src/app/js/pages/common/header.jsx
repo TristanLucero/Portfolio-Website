@@ -24,20 +24,12 @@ function Header() {
           style={{ color: "black" }}
         >
           <Link
-            href="https://docs.google.com/"
-            color="inherit"
-            className={classes.linkText}
-            target="_blank"
-          >
-            resume
-          </Link>
-          <Link
             href="https://github.com/tristanlucero"
             color="inherit"
             className={classes.linkText}
             target="_blank"
           >
-            github
+            GitHub
           </Link>
           <Link
             href="https://www.linkedin.com/in/tristanlucero/"
@@ -45,7 +37,7 @@ function Header() {
             className={classes.linkText}
             target="_blank"
           >
-            linkedin
+            LinkedIn
           </Link>
         </Breadcrumbs>
       </div>

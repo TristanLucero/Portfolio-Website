@@ -30,14 +30,6 @@ function Footer() {
             style={{ color: "black" }}
           >
             <Link
-              target="_blank"
-              href="https://docs.google.com/"
-              color="inherit"
-              target="_blank"
-            >
-              <Description className={classes.icons} />
-            </Link>
-            <Link
               href="https://github.com/tristanlucero"
               color="inherit"
               target="_blank"
